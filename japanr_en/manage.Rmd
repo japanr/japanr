@@ -1,0 +1,16 @@
+---
+title: "Mangement Members"
+---
+Some volunteers that loves R language and are cooperative with Japan.R manage this conference. Following members are agree that their photos are posted on the web site.
+
+### Atsushi Hayakawa
+<img src="../docs/img/ahayakawa.png" width="120px" height = "120px">
+
+### Shinichi Takayangi
+<img src="../docs/img/stakaya.jpg" width="120px" height = "120px">
+
+### Kiyotaka Mori
+<img src="../docs/img/kmori.png" width="120px" height = "120px">
+
+### Yuya Matsumura
+<img src="../docs/img/ymattu1.jpg" width="120px" height = "120px">

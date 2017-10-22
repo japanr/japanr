@@ -1,0 +1,37 @@
+---
+title: "About Japan.R"
+---
+
+## What is Japan.R?
+Japan.R is an anual conference of R, a statistical softfare. In this conference, the organizers and participants of local communities of R get together. There are many local communities in Japan:
+
+- [Fukuoka.R](https://www.facebook.com/fukuoka.stat.R)
+- [HiRosima.R(HijiyamaR)](https://hiroshimar.connpass.com/)
+- [Kashiwa.R](https://www14.atwiki.jp/kashiwar/)
+- [Kobe.R](https://kobexr.doorkeeper.jp/)
+- [Nagoya.R](https://atnd.org/events/78674)
+- [Okinawa.R](http://www.okadajp.org/RWiki/?%E6%B2%96%E7%B8%84R%E5%90%8C%E5%A5%BD%E4%BC%9A)
+- [Osaka.R](https://sites.google.com/site/osakarwiki/)
+- [SappoRo.R](http://kokucheese.com/event/index/423714/)
+- [Shiga.R](https://atnd.org/events/5939)
+- [Tokyo.R](https://groups.google.com/forum/#!forum/r-study-tokyo)
+- [Tsukuba.R](http://seesaawiki.jp/w/syou6162/)
+- [Yamadai.R](https://atnd.org/events/37336)
+
+
+## History of Japan.R
+- [Japan.R 2010](http://lab.sakaue.info/wiki.cgi/JapanR2010)
+- Japan.R 2011
+    - [Morning Sessions (Sessions for Beginners)](https://atnd.org/events/22043)
+    - [Afternoon Sessions (Booth / LT Sessions)](https://atnd.org/events/22044)
+- Japan.R 2012
+    - [Morning Sessions](https://atnd.org/events/33933)
+    - [Afternoon Sessions](https://atnd.org/events/33934)
+- [Japan.R 2013](https://atnd.org/events/44682)
+- [Japan.R 2014](https://atnd.org/events/58624)
+- [Japan.R 2015](https://atnd.org/events/71243) <br>
+![](../docs/img/about-us.jpg)
+
+- [Japan.R 2016](https://japanr.connpass.com/event/43919/)
+
+In Japan.R 2016, there were **24** talks. Moreover, over **200** R users joined and had a great time!

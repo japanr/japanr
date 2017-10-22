@@ -1,0 +1,20 @@
+---
+title: "Date & Place"
+---
+
+## Date
+### **02.12.2017**
+
+## Place
+### **JR SHINJUKU MIRAINA TOWER**
+
+```{r place, echo=FALSE}
+library(leaflet)
+dat <- data.frame(long = 139.701840, lat = 35.688772)
+
+leaflet(dat) %>%
+  addTiles(urlTemplate = "https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png") %>%
+  addMarkers(lng = ~ long, lat = ~ lat) %>%
+  setView(lng = 139.70184, lat = 35.688772, zoom = 17)
+
+```
