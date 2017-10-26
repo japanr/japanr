@@ -3,7 +3,48 @@ title: "Program"
 ---
 
 ## Long Talks
+|Time|Title(in Japanese)|Speaker|
+|----|-----|----|
+|12:30~13:00|Reception||
+|13:00~13:05|Opening Talk|@gepuro|
+|13:05~13:25|**Special Talk**|**Special Guest**|
+|13:25~13:45|**Special Talk**|**Special Guest**|
+|13:45~14:05|Rを教える|神沢雄大|
+|14:05~14:25|データ分析言語(R, Python, Julia) 1年の振り返り|堀越真映|
+|14:25~14:45|LINE Fukuokaでの分析事例と福岡のR事情|doradora09|
+|14:40~14:55|休憩|Everyone|
+|14:55~15:15|文章自動生成における手法の一考察|太田博三|
+|15:15~15:35|今年書いた記事から何か発表する|Med_KU|
+|15:35~15:50|休憩|Everyone|
 
 ## Lightning Talks
+|Time|Content(in Japanese)|Speaker|
+|----|-----|----|
+|15:50~15:55|（何か考えます）|horihorio|
+|15:55~16:00|トライアスロンと僕|@gepuro|
+|16:00~16:05|参加者で一番早く結婚しそうな人を探す|@wonder_zone|
+|16:05~16:10|私と蓮君|高柳慎一|
+|16:10~16:15|R Markdownの殻を破る(仮題)|前田和寛(@kazutan)|
+|16:15~16:20|Rの演算子特集|@y__mattu|
+|16:20~16:25|Rで関数的プログラミング|@fuuuumin314|
+|16:25~16:30|RをJavaScript(Node.js)から使ってみる|高橋亨平 (kcrt)|
+|16:30~16:35|R言語100本ノックを作る|天野|
+|16:35~16:40|Rで因果効果の推定|morishita|
+|16:40~17:00|休憩＆時間調整|Everyone|
+|17:00~17:05|Counter Factual Machine Learning in 5min|@housecat442|
+|17:05~17:10|トポロジカルデータ解析(予定)|てけぬこ|
+|17:10~17:15|R Tools for Visual Studio の紹介|dmldml20|
+|17:15~17:20|未定|ymaki620|
+|17:20~17:25|ネット広告と僕|yu_sato92|
+|17:25~17:30|未定|hskksk|
+|17:30~17:35|My merit から取得した位置情報データの可視化|yhirotoshi|
+|17:35~17:40|RでQR！|@tetsuroito|
+|17:40~17:45|このIRのグラフがすごい!上場企業2017|itoyan|
 
-## After Party
+
+## Party
+|Time|What|Content|
+|----|-----|----|
+|18:00~19:30(TBD)|Main Party|Pizza|
+|19:30~20:00|Cleaning up|Everyone|
+|20:00~22:00(TBD)|After Party|TBD|
