@@ -1,0 +1,34 @@
+name: "Japan.R"
+navbar:
+  title: "Japan.R"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "News"
+      href: news.html
+    - text: "About"
+      menu:
+        - text: "Japan.R"
+          href: japanr.html
+        - text: "Date & Place"
+          href: date.html
+        - text: "Management Members"
+          href: manage.html
+    - text: "Program"
+      href: program.html
+    - text: "Register"
+      href: https://japanr.connpass.com/event/70230/
+    - text: "Contacts"
+      href: contact.html
+    - text: "Japanese"
+      href: http://japanr.net/
+  right:
+    - icon: fa-twitter
+      href: https://twitter.com/Japan_R_net
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    df_print: "tibble"
+    css: site_style.css
+output_dir: "../docs/en"

@@ -1,0 +1,14 @@
+---
+title: "Japan.R 2017"
+subtitle: "02.12.2017, Tokyo"
+---
+
+```{r echo=FALSE}
+df <- data.frame(
+  imgs = c("img/about-us.jpg", "img/building.jpg", "img/yakei.jpg")
+)
+
+library(zousan)
+carousel(id = "carousel1", img = df$imgs, interval = 5000)
+```
+

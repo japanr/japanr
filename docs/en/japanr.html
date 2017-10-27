@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>About Japan.R</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="site_style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Japan.R</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="news.html">News</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="japanr.html">Japan.R</a>
+    </li>
+    <li>
+      <a href="date.html">Date &amp; Place</a>
+    </li>
+    <li>
+      <a href="manage.html">Management Members</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="program.html">Program</a>
+</li>
+<li>
+  <a href="https://japanr.connpass.com/event/70230/">Register</a>
+</li>
+<li>
+  <a href="contact.html">Contacts</a>
+</li>
+<li>
+  <a href="http://japanr.net/">Japanese</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://twitter.com/Japan_R_net">
+    <span class="fa fa-twitter"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">About Japan.R</h1>
+
+</div>
+
+
+<div id="what-is-japan.r" class="section level2">
+<h2>What is Japan.R?</h2>
+<p>Japan.R is an anual conference of R, a statistical softfare. In this conference, the organizers and participants of local communities of R get together. There are many local communities in Japan:</p>
+<ul>
+<li><a href="https://www.facebook.com/fukuoka.stat.R">Fukuoka.R</a></li>
+<li><a href="https://hiroshimar.connpass.com/">HiRosima.R(HijiyamaR)</a></li>
+<li><a href="https://www14.atwiki.jp/kashiwar/">Kashiwa.R</a></li>
+<li><a href="https://kobexr.doorkeeper.jp/">Kobe.R</a></li>
+<li><a href="https://atnd.org/events/78674">Nagoya.R</a></li>
+<li><a href="http://www.okadajp.org/RWiki/?%E6%B2%96%E7%B8%84R%E5%90%8C%E5%A5%BD%E4%BC%9A">Okinawa.R</a></li>
+<li><a href="https://sites.google.com/site/osakarwiki/">Osaka.R</a></li>
+<li><a href="http://kokucheese.com/event/index/423714/">SappoRo.R</a></li>
+<li><a href="https://atnd.org/events/5939">Shiga.R</a></li>
+<li><a href="https://groups.google.com/forum/#!forum/r-study-tokyo">Tokyo.R</a></li>
+<li><a href="http://seesaawiki.jp/w/syou6162/">Tsukuba.R</a></li>
+<li><a href="https://atnd.org/events/37336">Yamadai.R</a></li>
+</ul>
+</div>
+<div id="history-of-japan.r" class="section level2">
+<h2>History of Japan.R</h2>
+<ul>
+<li><a href="http://lab.sakaue.info/wiki.cgi/JapanR2010">Japan.R 2010</a></li>
+<li>Japan.R 2011
+<ul>
+<li><a href="https://atnd.org/events/22043">Morning Sessions (Sessions for Beginners)</a></li>
+<li><a href="https://atnd.org/events/22044">Afternoon Sessions (Booth / LT Sessions)</a></li>
+</ul></li>
+<li>Japan.R 2012
+<ul>
+<li><a href="https://atnd.org/events/33933">Morning Sessions</a></li>
+<li><a href="https://atnd.org/events/33934">Afternoon Sessions</a></li>
+</ul></li>
+<li><a href="https://atnd.org/events/44682">Japan.R 2013</a></li>
+<li><a href="https://atnd.org/events/58624">Japan.R 2014</a></li>
+<li><p><a href="https://atnd.org/events/71243">Japan.R 2015</a> <br> <img src="/Users/yuya/Desktop/japanr/docs/img/about-us.jpg" /></p></li>
+<li><p><a href="https://japanr.connpass.com/event/43919/">Japan.R 2016</a></p></li>
+</ul>
+<p>In Japan.R 2016, there were <strong>24</strong> talks. Moreover, over <strong>200</strong> R users joined and had a great time!</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
