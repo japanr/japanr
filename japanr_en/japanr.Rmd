@@ -30,7 +30,7 @@ Japan.R is an anual conference of R, a statistical softfare. In this conference,
 - [Japan.R 2013](https://atnd.org/events/44682)
 - [Japan.R 2014](https://atnd.org/events/58624)
 - [Japan.R 2015](https://atnd.org/events/71243) <br>
-![](../docs/img/about-us.jpg)
+<img src="img/about-us.jpg" width="400px">
 
 - [Japan.R 2016](https://japanr.connpass.com/event/43919/)
 
