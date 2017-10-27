@@ -5,7 +5,7 @@ subtitle: "02.12.2017, Tokyo"
 
 ```{r echo=FALSE}
 df <- data.frame(
-  imgs = c("../docs/img/2017/about-us.jpg", "../docs/img/2017/building.jpg", "../docs/img/2017/yakei.jpg")
+  imgs = c("img/about-us.jpg", "img/building.jpg", "img/2017/yakei.jpg")
 )
 
 library(zousan)
