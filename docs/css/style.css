@@ -140,12 +140,14 @@ i{
   font-weight: bold;
 /*  text-transform: uppercase; */
   color: white;
+  text-stroke: 1px black;
 }
 .banner-text h1 span{
 	color: #cb2e2e;
 }
 .banner-text a {
   color: white;
+  text-stroke: 1px black;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
