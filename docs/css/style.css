@@ -111,7 +111,8 @@ i{
   text-align: justify;
 }
 .banner{
-	background: url('../img/banner-bg.jpg');
+	background: url('../img/building.jpg');
+	background-size: cover;
 	height: 651px;
 }
 .brand{
@@ -139,12 +140,14 @@ i{
   font-weight: bold;
 /*  text-transform: uppercase; */
   color: white;
+  text-shadow: 2px 2px 0 black;
 }
 .banner-text h1 span{
 	color: #cb2e2e;
 }
 .banner-text a {
   color: white;
+  text-shadow: 2px 2px 0 black;
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
