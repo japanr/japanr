@@ -124,6 +124,15 @@ i{
 	color: #cb2e2e;
 }
 
+.language {
+   color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.language b{
+   color: white;
+}
+
 .social-icons {
    color: white;
   margin-top: 10px;
