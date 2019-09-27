@@ -111,9 +111,10 @@ i{
   text-align: justify;
 }
 .banner{
-	background: url('../img/building.jpg');
+	background-image: url('../img/building.jpg');
 	background-size: cover;
 	height: 651px;
+  background-position: center;
 }
 .brand{
 	color: white;
